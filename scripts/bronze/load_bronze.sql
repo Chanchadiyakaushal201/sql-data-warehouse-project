@@ -92,7 +92,7 @@ BEGIN
 		cst_gndr,
 		cst_create_date
 	)
-	FROM 'D:\Data Analytics\Projects\sql_data_warehouse\dataset\source_crm\cust_info.csv'
+	FROM 'D:\sql_data_warehouse\dataset\source_crm\cust_info.csv'
 	WITH (
 		FORMAT CSV,
 		HEADER TRUE,
@@ -129,7 +129,7 @@ BEGIN
 		prd_start_dt,
 		prd_end_dt
 	)
-	FROM 'D:\Data Analytics\Projects\sql_data_warehouse\dataset\source_crm\prd_info.csv'
+	FROM 'D:\sql_data_warehouse\dataset\source_crm\prd_info.csv'
 	WITH (
 		FORMAT CSV,
 		HEADER TRUE,
@@ -164,7 +164,7 @@ BEGIN
 		sls_quantity,
 		sls_price
 	)
-	FROM 'D:\Data Analytics\Projects\sql_data_warehouse\dataset\source_crm\sales_details.csv'
+	FROM 'D:\sql_data_warehouse\dataset\source_crm\sales_details.csv'
 	WITH (
 		FORMAT CSV,
 		HEADER TRUE,
@@ -201,7 +201,7 @@ BEGIN
 		bdate,
 		gen
 	)
-	FROM 'D:\Data Analytics\Projects\sql_data_warehouse\dataset\source_erp\cust_az12.csv'
+	FROM 'D:\sql_data_warehouse\dataset\source_erp\cust_az12.csv'
 	WITH (
 		FORMAT CSV,
 		HEADER TRUE,
@@ -229,7 +229,7 @@ BEGIN
 		cid,
 		cntry 
 	)
-	FROM 'D:\Data Analytics\Projects\sql_data_warehouse\dataset\source_erp\loc_a101.csv'
+	FROM 'D:\sql_data_warehouse\dataset\source_erp\loc_a101.csv'
 	WITH (
 		FORMAT CSV,
 		HEADER TRUE,
@@ -259,7 +259,7 @@ BEGIN
 		subcat,
 		maintenance 	
 	)
-	FROM 'D:\Data Analytics\Projects\sql_data_warehouse\dataset\source_erp\px_cat_g1v2.csv'
+	FROM 'D:\sql_data_warehouse\dataset\source_erp\px_cat_g1v2.csv'
 	WITH (
 		FORMAT CSV,
 		HEADER TRUE,
