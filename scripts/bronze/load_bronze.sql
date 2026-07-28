@@ -296,6 +296,9 @@ BEGIN
 	        RAISE NOTICE 'Error State: %', v_error_state;
 			RAISE NOTICE 'Error Context: %', v_error_context;
 	        RAISE NOTICE '==========================================';
+
+			RAISE;
+
 END;
 $$;
 
