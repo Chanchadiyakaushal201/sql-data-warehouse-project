@@ -258,7 +258,7 @@ BEGIN
 			ELSE cid
 		END AS cid,
 		CASE
-			WHEN bdate > CURRENT_DATE THEN NULL
+			WHEN bdate > CURRENT_DATE OR bdate < '1926-01-01' THEN NULL
 			ELSE bdate
 		END AS bdate,
 		CASE
