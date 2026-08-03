@@ -89,7 +89,7 @@ The primary objectives of this project are:
 The overall solution follows a layered architecture that separates raw ingestion, data transformation, and business reporting.
 
 <p align="center">
-<img src="[docs/architecture/data_architecture.png](https://github.com/Chanchadiyakaushal201/sql-data-warehouse-project/blob/b14c87c45b607b2dd1d3fb894b9f5c514db3bdab/docs/data_architecture.png)" width="900">
+<img src="https://github.com/Chanchadiyakaushal201/sql-data-warehouse-project/blob/b14c87c45b607b2dd1d3fb894b9f5c514db3bdab/docs/data_architecture.png)" width="900">
 </p>
 
 The architecture consists of:
