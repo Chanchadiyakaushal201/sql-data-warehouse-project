@@ -345,3 +345,104 @@ The `gold.product_report` view provides product-level business metrics including
 - Revenue Contribution
 
 These analytical views reduce calculation complexity inside Power BI and provide reusable datasets for executive reporting and business analysis.
+
+---
+
+# 📊 Power BI Dashboard
+
+The final Power BI dashboard connects directly to the **Gold analytical layer** of the SQL Data Warehouse, providing interactive business insights through a clean, executive-friendly interface.
+
+The dashboard consists of three analytical pages designed to support executive reporting, customer analysis, and product performance monitoring.
+
+---
+
+## 📈 Executive Overview
+
+Provides a high-level summary of overall business performance.
+
+### Key KPIs
+
+- Total Revenue
+- Total Orders
+- Total Customers
+- Total Products
+- Average Order Value
+
+### Visualizations
+
+- Monthly Revenue Trend
+- Revenue by Category
+- Top 10 Products by Revenue
+- Revenue by Country
+
+<p align="center">
+<img src="powerbi/executive_overview.png" width="900">
+</p>
+
+---
+
+## 👥 Customer Analytics
+
+Provides detailed insights into customer purchasing behavior, spending patterns, and segmentation.
+
+### Key KPIs
+
+- Total Customers
+- Customer Average Spend
+- Customer Average Order Value
+- Customer Average Monthly Spend
+- Customer Average Lifespan
+
+### Visualizations
+
+- Customers by Segment
+- Customers by Age Group
+- Top 10 Customers by Sales
+- Revenue Contribution by Segment
+- Customer Detail Table
+
+<p align="center">
+<img src="powerbi/customer_analytics.png" width="900">
+</p>
+
+---
+
+## 📦 Product Analytics
+
+Analyzes product performance, category contribution, pricing metrics, and customer purchasing trends.
+
+### Key KPIs
+
+- Product Total Products
+- Product Average Selling Price
+- Product Average Order Revenue
+- Product Average Monthly Revenue
+- Product Average Lifespan
+
+### Visualizations
+
+- Products by Segment
+- Revenue by Category
+- Top 10 Products by Revenue
+- Revenue Contribution by Product Segment
+- Product Detail Table
+
+<p align="center">
+<img src="powerbi/product_analytics.png" width="900">
+</p>
+
+---
+
+## ✨ Dashboard Features
+
+- Executive KPI cards for business monitoring
+- Interactive slicers for dynamic filtering
+- Power BI Page Navigator for seamless navigation
+- Cross-filtering across visuals
+- Monthly revenue trend analysis
+- Customer segmentation and behavior analysis
+- Product performance and category analysis
+- Country-wise sales performance
+- Top-N customer and product reporting
+- Detailed analytical tables for drill-down analysis
+- Direct connection to the SQL Gold analytical layer
