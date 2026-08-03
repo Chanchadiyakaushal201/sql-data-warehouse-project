@@ -603,7 +603,7 @@ Aspiring Data Analyst passionate about transforming raw data into meaningful bus
 
 ### Connect with Me
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/kaushalchanchadiya162/
+- 💼 **LinkedIn:** https://www.linkedin.com/in/kaushalchanchadiya162004
 - 💻 **GitHub:** https://github.com/Chanchadiyakaushal201
 
 ---
