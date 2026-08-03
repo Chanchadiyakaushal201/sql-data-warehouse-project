@@ -99,6 +99,8 @@ The architecture consists of:
 - **Gold Layer** – Business-ready dimensional model and analytical report views.
 - **Power BI** – Interactive dashboards powered directly from the Gold layer.
 
+---
+
 # 🔄 Data Flow
 
 The data warehouse integrates data from two independent business systems:
