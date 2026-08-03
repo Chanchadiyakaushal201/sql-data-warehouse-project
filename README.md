@@ -445,4 +445,171 @@ Analyzes product performance, category contribution, pricing metrics, and custom
 - Country-wise sales performance
 - Top-N customer and product reporting
 - Detailed analytical tables for drill-down analysis
-- Direct connection to the SQL Gold analytical layer
+- Direct connection to the Gold Layer analytical views (gold.dim_customers, gold.dim_products, gold.fact_sales, gold.customer_report, and gold.product_report)
+
+---
+
+# 📂 Repository Structure
+
+```text
+sql-data-warehouse-project/
+│
+├── datasets/
+│   ├── source_crm/
+│   └── source_erp/
+│
+├── docs/
+│   ├── data_architecture.png
+│   ├── data_flow.png
+│   ├── data_model.png
+│   ├── data_catalog.md
+│   └── naming_conventions.md
+│
+├── powerbi/
+│   ├── sql_data_warehouse_project.pbix
+│   ├── executive_overview.png
+│   ├── customer_analytics.png
+│   └── product_analytics.png
+│
+├── scripts/
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
+│   └── reports/
+│
+├── tests/
+│
+├── README.md
+└── LICENSE
+```
+
+The repository is organized to separate datasets, SQL scripts, documentation, and Power BI assets, making the project modular, scalable, and easy to navigate.
+
+---
+
+# 🛠 Technology Stack
+
+| Category | Technologies |
+|-----------|--------------|
+| Database | PostgreSQL |
+| SQL IDE | pgAdmin 4 |
+| Data Warehouse | Medallion Architecture |
+| Data Modeling | Star Schema |
+| ETL | SQL |
+| Reporting | SQL Views |
+| Dashboard | Power BI Desktop |
+| Documentation | Markdown |
+| Diagramming | draw.io |
+| Version Control | Git |
+| Repository Hosting | GitHub |
+
+---
+
+# 💡 Skills Demonstrated
+
+This project demonstrates an end-to-end modern analytics workflow, covering database design, ETL development, dimensional modeling, SQL analytics, dashboard development, and technical documentation.
+
+### SQL
+
+- Database design
+- Schema creation
+- SQL Views
+- Joins
+- Common Table Expressions (CTEs)
+- Window Functions
+- Aggregate Functions
+- Analytical Queries
+- Query Optimization
+- Business Reporting
+
+### Data Warehousing
+
+- Medallion Architecture
+- ETL Pipeline Design
+- Bronze → Silver → Gold Layer Implementation
+- Data Cleansing
+- Data Standardization
+- Data Validation
+- Business Rule Implementation
+- Star Schema Modeling
+
+### Data Modeling
+
+- Fact & Dimension Modeling
+- Primary & Foreign Keys
+- Analytical Report Views
+- Dimensional Modeling
+- Business-Oriented Data Structures
+
+### Power BI
+
+- Data Modeling
+- DAX Measures
+- Interactive Dashboards
+- KPI Design
+- Executive Reporting
+- Customer Analytics
+- Product Analytics
+- Cross Filtering
+- Page Navigation
+- Business Storytelling
+
+### Documentation
+
+- Technical Documentation
+- Repository Organization
+- Data Architecture Documentation
+- Data Flow Documentation
+- Data Catalog
+- Naming Conventions
+
+---
+
+# 🚀 Future Improvements
+
+Potential enhancements for this project include:
+
+- Improve Power BI dashboards with additional KPIs and business insights.
+- Enhance data quality validation by introducing more business rules.
+- Add new CRM and ERP datasets to broaden business analysis.
+- Optimize SQL queries for improved reporting performance.
+- Improve project documentation with additional technical references and examples.
+
+---
+
+# 🙏 Acknowledgements
+
+This project was inspired by modern data warehousing and analytics best practices.
+
+Special thanks to the data analytics community and open educational resources that helped shape the architecture, ETL design, dimensional modeling, and reporting workflow demonstrated in this project.
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+You are free to use, modify, and distribute this project with proper attribution.
+
+See the **LICENSE** file for more information.
+
+---
+
+# 👨‍💻 Author
+
+**Kaushal Chanchadiya**
+
+Aspiring Data Analyst passionate about transforming raw data into meaningful business insights through SQL, Power BI, Python, and data modeling.
+
+### Connect with Me
+
+- 💼 **LinkedIn:** https://www.linkedin.com/in/kaushalchanchadiya162/
+- 💻 **GitHub:** https://github.com/Chanchadiyakaushal201
+
+---
+
+## ⭐ If you found this project useful
+
+If this repository helped you learn about SQL data warehousing, consider giving it a ⭐ on GitHub.
+
+Feedback and suggestions are always welcome!
