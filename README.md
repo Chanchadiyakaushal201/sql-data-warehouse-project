@@ -109,7 +109,7 @@ The data warehouse integrates data from two independent business systems:
 The ETL pipeline follows a layered approach where raw data is ingested into the Bronze layer, transformed in the Silver layer, and modeled into business-ready views in the Gold layer before being consumed by Power BI.
 
 <p align="center">
-<img src="docs/architecture/data_flow.png" width="900">
+<img src="https://github.com/Chanchadiyakaushal201/sql-data-warehouse-project/blob/e03099472280afd6ae2bbbec89d9d4a4d854d4f5/docs/data_flow.png" width="900">
 </p>
 
 ### Data Flow Summary
