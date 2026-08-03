@@ -243,3 +243,111 @@ The SQL Data Warehouse demonstrates several industry-standard design practices:
 - ✔ Modular SQL Scripts
 - ✔ Reusable Reporting Model
 - ✔ Direct Power BI Integration
+
+---
+
+---
+
+# ✅ Data Quality & Validation
+
+Data quality is essential for building a reliable analytical warehouse. During the Silver layer transformation, multiple validation and cleansing rules were applied to ensure the Gold layer contains accurate, consistent, and business-ready data.
+
+### Data Cleansing Activities
+
+- Removed duplicate records
+- Standardized text formatting and naming conventions
+- Converted columns to appropriate data types
+- Handled missing and null values
+- Standardized date formats
+- Applied business rule validations
+- Validated primary and foreign key relationships
+
+### Data Validation
+
+To ensure data consistency across the warehouse, the following validation checks were performed:
+
+- Record count reconciliation
+- Duplicate detection
+- Referential integrity validation
+- Null value verification
+- Invalid date identification
+- Business rule consistency checks
+
+These validation processes ensure that the analytical layer provides trustworthy data for reporting and decision-making.
+
+---
+
+# 📈 Exploratory Data Analysis (EDA)
+
+Before designing the analytical model, exploratory SQL analysis was performed to better understand the data and identify meaningful business patterns.
+
+The exploratory analysis included:
+
+- Monthly sales trends
+- Customer purchasing behavior
+- Product category performance
+- Geographic sales distribution
+- Revenue contribution by category
+- Customer segmentation analysis
+- Product performance comparison
+
+The insights gained during this phase helped validate the warehouse design and guided the creation of analytical reporting views.
+
+---
+
+# 📊 Advanced SQL Analytics
+
+This project demonstrates practical SQL techniques commonly used in modern data warehousing and business intelligence projects.
+
+### SQL Concepts Implemented
+
+- Common Table Expressions (CTEs)
+- Window Functions
+- Aggregate Functions
+- CASE Expressions
+- Multi-table Joins
+- Analytical Views
+- Date Functions
+- String Functions
+- NULL Handling
+- Data Type Conversion
+- Ranking Functions
+- Grouping & Aggregations
+
+These techniques were used to build reusable analytical views and optimize reporting performance.
+
+---
+
+# 📑 Analytical Report Views
+
+Beyond the dimensional model, two business-ready analytical views were created to simplify reporting and improve Power BI performance.
+
+## 👤 Customer Report
+
+The `gold.customer_report` view provides customer-level business metrics including:
+
+- Total Sales
+- Total Orders
+- Total Quantity Purchased
+- Average Order Value
+- Average Monthly Spend
+- Customer Lifespan
+- Customer Recency
+- Customer Segment
+
+---
+
+## 📦 Product Report
+
+The `gold.product_report` view provides product-level business metrics including:
+
+- Total Revenue
+- Total Orders
+- Total Quantity Sold
+- Average Selling Price
+- Average Monthly Revenue
+- Product Lifespan
+- Product Segment
+- Revenue Contribution
+
+These analytical views reduce calculation complexity inside Power BI and provide reusable datasets for executive reporting and business analysis.
