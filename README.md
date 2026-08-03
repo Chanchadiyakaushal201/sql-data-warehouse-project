@@ -246,8 +246,6 @@ The SQL Data Warehouse demonstrates several industry-standard design practices:
 
 ---
 
----
-
 # ✅ Data Quality & Validation
 
 Data quality is essential for building a reliable analytical warehouse. During the Silver layer transformation, multiple validation and cleansing rules were applied to ensure the Gold layer contains accurate, consistent, and business-ready data.
